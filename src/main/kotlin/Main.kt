@@ -21,4 +21,6 @@
 - referential transparency
 
 - side effects
+
+- functor
  */

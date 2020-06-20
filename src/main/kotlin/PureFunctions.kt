@@ -1,7 +1,6 @@
 val v = 0
 
 fun pure(i: Int, x: Int): Int {
-    val u = pure2(i)
     return i + x
 }
 
@@ -10,5 +9,5 @@ fun pure2(v1: Int): Int {
 }
 
 fun main() {
-    pure(2, 2)
+    pure(2, 2) // pure == 4
 }
